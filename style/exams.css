@@ -99,3 +99,14 @@
 .pagination__next {
 	color: #757575;
 }
+
+@media screen and (max-width: 1019px) {
+	.exam__item {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.exam__tags {
+    width: 100%;
+	}
+}

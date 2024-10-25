@@ -36,7 +36,6 @@ body {
 .page__content {
 	width: 80%;
 	padding: 0 64px;
-
 	margin-bottom: 40px;
 }
 
@@ -218,5 +217,9 @@ body {
 	}
 	.hidden__desktop {
 		display: none;
+	}
+
+	.page__content {
+		padding: 0 20px;
 	}
 }
