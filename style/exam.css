@@ -1,0 +1,25 @@
+.form__exam {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	margin-top: 87px;
+}
+
+.form__field {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+
+.buttons {
+	display: flex;
+	gap: 10px;
+}
+
+@media screen and (max-width: 1019px) {
+	.buttons {
+		flex-wrap: wrap;
+	}
+}

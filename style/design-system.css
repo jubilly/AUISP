@@ -1,0 +1,17 @@
+:root {
+	--color-text-primary: #718096;
+	--color-text-secondary: #fff;
+	--color-text-tertiary: #A0AEC0;
+	--color-text-higthlight: #171923;
+
+	--color-menu-primary: #1E1E1E;
+	--background-color-menu-hover: #FBF8FF;
+	--color-menu-hover: #6A42AB;
+
+	--color-primary: #762D7B;
+	--color-secondary: #F7FAFC;
+	--color-tertiary: #CBD5E0;
+
+	--color-background-primary: #FFFFFF;
+	--color-background-secondary: #F5F5F5;
+}

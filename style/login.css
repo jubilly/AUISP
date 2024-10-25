@@ -1,0 +1,39 @@
+
+.sign-in {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	gap: 36px;
+	margin-bottom: 60px;
+}
+
+.actions {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.action__create-action {
+	text-align: left;
+	width: 100%;
+}
+
+.action__remember {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	flex-direction: row-reverse;
+}
+
+.sign-in__tertiary {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	flex-wrap: wrap;
+	margin-top: 46px;
+	width: 100%;
+}

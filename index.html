@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Aplicativo Unificador de Informações de Saúde Pessoal</title>
+		<link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+		<link rel="stylesheet" href="./style/resets.css">
+		<link rel="stylesheet" href="./style/design-system.css">
+		<link rel="stylesheet" href="./style/general.css">
+		<link rel="stylesheet" href="./style/login.css">
+	</head>
+	<body>
+		<header class="wrapper header__initial">
+				<div class="logo">
+					<img src="./assets/logo-big.png" alt="Logo AUISP">
+				</div>
+		</header>
+		<main class="wrapper content">
+			<section class="sign-in">
+					<div class="action__create-action">
+						<a class="link text" href="/">Não tem uma conta? <span class="text__highlight">Crie agora</span></a>
+					</div>
+					<div class="input__field">
+						<label class="text" for="email">Email</label>
+						<input class="input" type="text" name="email" placeholder="exame@gmail.com" required>
+					</div>
+					<div class="input__field">
+						<label class="text" for="password">Password</label>
+						<input class="input" type="password" name="password" placeholder="Senha" required>
+					</div>
+					<div class="actions">
+						<div class="action__remember">
+							<label class="text" for="remember">Lembre de mim</label>
+							<input type="checkbox" name="remember" id="remember">
+						</div>
+						<div class="action-forgot-password">
+							<a class="text text__highlight" href="/">Esqueceu a senha?</a>
+						</div>
+					</div>
+					<a class="button button__primary" href="./routes/exams.html">Entrar</a>
+			</section>
+			<div class="separator">
+				<hr class="separator__line">
+				<span class="separator__text">ou</span>
+				<hr class="separator__line">	
+			</div>
+			<section class="sign-in__tertiary">
+				<a class="button button__secondary" href="/">
+						<img src="./assets/icon-google.png" href="/" alt="Ícone Google">
+					<span>
+						Continue com Google
+					</span>
+				</a>
+				<a class="button button__secondary" href="/">
+					<img src="./assets/icon-facebook.png" alt="Ícone Facebook">
+					<span>
+						Continue com Facebook
+					</span>
+				</a>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="copy-right">
+					<p class="text">Todos os direitos reservados © 2024 </p>
+					<span>|</span>
+					<a class="text__highlight" href="/">Termos de uso</a>
+					<span>|</span>
+					<a class="text__highlight" href="/">Políticas de uso</a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

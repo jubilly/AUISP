@@ -1,0 +1,32 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+a, 
+a:hover, 
+a:active,
+a:visited {
+	text-decoration: none;
+}
+
+a, button {
+	cursor: pointer;
+}
+
+input {
+	outline: none;
+}
+
+input::placeholder {
+	font-weight: 500;
+}

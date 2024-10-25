@@ -1,0 +1,155 @@
+.header {
+	height: 100vh;
+	width: 20%;
+}
+.header__collapsible {
+	background-color: var(--color-background-secondary);
+	position: fixed;
+	padding: 16px 0 0 32px;
+	height: 100%;
+}
+
+.header__collapsible .logo {
+	text-align: center;
+}
+
+.menu__link {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	color: var(--color-menu-primary);
+}
+
+.menu__list {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.menu__item {
+	position: relative;
+	cursor: pointer;
+}
+
+.menu__item:hover {
+	background-color: var(--background-color-menu-hover);
+}
+
+.menu__item-children:hover {
+	background-color: var(--color-background-secondary);
+}
+
+.menu__item:hover .menu__link {
+	color: var(--color-menu-hover);
+}
+
+.menu__item:hover .menu__link path {
+	fill: var(--color-menu-hover);
+}
+
+.menu__item:nth-child(5):hover .menu__link path {
+	fill: inherit;
+	stroke: var(--color-menu-hover);
+}
+
+.menu__sub-item:hover {
+	background-color: var(--color-background-secondary);
+}
+
+.menu__item,
+.menu__sub-item {
+	padding: 10px 12px;
+}
+
+.menu__sub {
+	padding: 10px 12px;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.menu__item:hover .menu__sub .menu__link{
+	color: var(--color-menu-primary);
+}
+
+.menu__button {
+	position: absolute;
+	top: 6px;
+	right: 40px;
+	cursor: pointer;
+}
+
+.arrow__down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.menu__collapsible {
+	height: 0;
+	padding: 0;
+	visibility: hidden;
+	transition: height 0.3s ease;
+}
+
+.menu__item:hover .menu__collapsible {
+	height: 80px;
+	padding: 10px 12px;
+	visibility: visible;
+}
+
+.menu__item:hover .arrow__down {
+	transform: rotate(230deg);
+	-webkit-transform: rotate(230deg);
+}
+
+.menu__bottom {
+	position: absolute;
+	bottom: 20px;
+	width: 80%;
+}
+
+.menu__user {
+	padding: 10px 12px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu__user__avatar {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.menu-hamburger {
+	display: flex;
+	height: 40px;
+	position: relative;
+}
+
+#menu-hamburger__click {
+	width: 30px;
+	height: 30px;
+	border: none;
+	appearance: none;
+	position: absolute;
+	z-index: 3;
+	cursor: pointer;
+}
+
+.menu-hamburger label {
+	position: absolute;
+}
+
+.menu-hamburger__line {
+	width: 30px;
+	height: 3px;
+	background-color: var(--color-text-primary);
+	margin: 6px 0;
+}
+
+@media screen and (max-width: 1019px) {
+	.header {
+		display: none;
+	}
+	
+}
