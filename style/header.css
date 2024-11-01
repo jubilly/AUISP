@@ -144,15 +144,29 @@
 	.menu-hamburger {
 		display: flex;
 		height: 40px;
-		position: relative;
+		position: absolute;
 		margin: 20px 10px;
+	}
+	.menu-hamburger label {
+		cursor: pointer;
 	}
 	.header {
 		position: fixed;
-		left: -60%;
+		left: -100%;
 		top: 0;
 		transition: left cubic-bezier(1,0,0,1) .8s;
 		z-index: 4;
+	}
+
+	.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #0000005e;
+		z-index: 3;
+		visibility: hidden;
+		opacity: 0;
+		transition: opacity 0.5s;
 	}
 	
 }

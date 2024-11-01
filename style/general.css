@@ -211,6 +211,10 @@ body {
 	opacity: 0.8;
 }
 
+.error-message {
+	color: #FF1818;
+}
+
 @media screen and (max-width: 1019px) {
 	.hidden__mobile {
 		display: block;
@@ -221,5 +225,10 @@ body {
 
 	.page__content {
 		padding: 0 20px;
+		margin: auto;
+	}
+
+	.button__xsmall {
+		width: 100%;
 	}
 }
